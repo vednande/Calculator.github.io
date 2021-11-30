@@ -1,0 +1,37 @@
+.container{
+    display: flex;
+    margin-left: 550px;
+    margin-top: 40px;
+    background-color: black;
+    width: 450px;
+    height: 500px;
+}
+#text-area {
+    width: 200px;
+    height: 1px;
+    margin: 120px;
+    margin-top: 80px;
+    justify-content: stretch;
+    background-color: lightcoral;
+
+}
+.text{
+    width: 200px;
+    height: 40px;
+    /* margin-left: 100px; */
+}
+.onetwothree , .fourfivesix , .seveneightnine , .slashzerodotequals {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 50px;
+}
+.one-two-three , .four-five-six , .seven-eight-nine , .slash-zero-dot-equals {
+    width: 50px;
+}
+.clearButton{
+    margin-top: 40px;
+    margin-left: 180px;
+    width: 100px;
+    height: 40px;
+    /* margin-bottom: 200px; */
+}
